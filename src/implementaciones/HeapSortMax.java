@@ -16,7 +16,7 @@ public class HeapSortMax implements HeapSortTDA{
     }
 
     private int hijoDer(int indice) {
-        return 2 * indice + 2; //Indice de hijo derech.
+        return 2 * indice + 2; //Indice de hijo derecho.
     }
     public void InicializarHeap() {
         heap = new int[capacidad]; //Inicializa el heap, con cantidad 0 de elementos.
